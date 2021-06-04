@@ -58,9 +58,9 @@ function game() {
         } while (computerScore < 3 && userScore < 3);
 
     if (computerScore === 3) {
-        console.log("You lost the game you cunt");
+        console.log("You lost the entire game :(");
     } else if (userScore === 3) {
-        console.log("Holy shit you won!");
+        console.log("You won the whole game!");
     }
     
     
