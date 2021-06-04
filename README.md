@@ -1,1 +1,1 @@
-First
+A game of rock paper scissors made for The Odin Project 
