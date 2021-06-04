@@ -55,11 +55,11 @@ function game() {
             console.log("Your score is " + userScore)
             console.log("Computer score is " + computerScore)
      
-        } while (computerScore < 3 && userScore < 3);
+        } while (computerScore < 10 && userScore < 10);
 
-    if (computerScore === 3) {
+    if (computerScore === 10) {
         console.log("You lost the entire game :(");
-    } else if (userScore === 3) {
+    } else if (userScore === 10) {
         console.log("You won the whole game!");
     }
     
