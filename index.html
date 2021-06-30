@@ -3,36 +3,38 @@
 <head>
     <meta charset="UTF-8"> 
     <title>Rock Paper Scissor</title>
+    <link rel='stylesheet' href='style.css'>
 </head>
-
-<script src="script.js"></script>
-
-<style>
-
-h1 {
-    color:#ff00009c;
-    font-size: 50px;
-    text-align: center;
-}
-
-body {
-
-    background-color: #00ffff29;
-}
-
-img {
-
-    position: relative;
-    margin-left: 40%;
-    margin-right: 50%;
-}
-
-</style>
 
 <body>
 
-<h1>Open the console and type game() to play rock paper scissor! first to 10 wins</h1>
+<h1>Rock Paper Scissors</h1>
 
-<img src="picture.jpeg" alt="A picture of the different moves in rock paper scissor">
+<div class='center';>
+    <img src="picture.jpeg" alt="A picture of the different moves in rock paper scissor">
+</div>
 
+
+
+<div class='center' id='buttons'>
+    <button id='rock' class='font'>Rock</button>
+    <button id='paper' class='font'>Paper</button>
+    <button id='scissor' class='font'>Scissors</button>
+</div><br>
+
+
+
+<div class='font' id='scores'>
+    <div id='uStat'>You
+        <div id='uPlay' class='spacing'></div>
+        <div id='uScore'></div>
+    </div>
+<div id='VS' class='VS'>VS</div>
+    <div id='cStat'>Computer
+        <div id='cPlay' class='spacing'></div>
+        <div id='cScore'></div> 
+    </div>
+</div>
+
+<script src="script.js"></script>
 </body>
