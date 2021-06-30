@@ -60,8 +60,6 @@ button {
     font-size: 40px;
     flex-direction: column;
     justify-content: center;
-    
-    
 }
 
 .vsSmall {
@@ -69,14 +67,9 @@ button {
     transition:0.5s;
 }
 
-#cStat {
-
-    min-width: 150px;   
-}
-
-#uStat {
-
+.stats {
     min-width: 150px;
+   
 }
 
 .redScore {
@@ -88,11 +81,14 @@ button {
     color: green;
 }
 
-#cScore {
-    font-size: 60px;
+.center1 {
+    text-align: center;
+    
 }
 
-#uScore {
-    font-size: 60px;
+.center2 {
+    padding-bottom: 60px;
+    text-decoration-line: underline;
+    text-align: center;
 }
 
